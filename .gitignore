@@ -1,0 +1,8 @@
+*.pro
+*.exe
+*.o
+*.Debug
+*.Release
+*.autosave
+*.stash
+*.user
