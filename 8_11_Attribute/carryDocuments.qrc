@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/picture">
+        <file>pental.jpg</file>
+        <file>cursor.webp</file>
+    </qresource>
+    <qresource prefix="/"/>
+</RCC>
