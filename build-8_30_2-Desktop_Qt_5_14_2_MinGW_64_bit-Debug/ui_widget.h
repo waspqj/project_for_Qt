@@ -21,6 +21,8 @@ class Ui_Widget
 public:
     QPushButton *pushButton_curry;
     QPushButton *pushButton_lebron;
+    QPushButton *pushButton;
+    QPushButton *pushButton_2;
 
     void setupUi(QWidget *Widget)
     {
@@ -33,6 +35,12 @@ public:
         pushButton_lebron = new QPushButton(Widget);
         pushButton_lebron->setObjectName(QString::fromUtf8("pushButton_lebron"));
         pushButton_lebron->setGeometry(QRect(450, 320, 93, 28));
+        pushButton = new QPushButton(Widget);
+        pushButton->setObjectName(QString::fromUtf8("pushButton"));
+        pushButton->setGeometry(QRect(190, 180, 93, 28));
+        pushButton_2 = new QPushButton(Widget);
+        pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
+        pushButton_2->setGeometry(QRect(450, 180, 93, 28));
 
         retranslateUi(Widget);
 
@@ -44,6 +52,8 @@ public:
         Widget->setWindowTitle(QCoreApplication::translate("Widget", "Widget", nullptr));
         pushButton_curry->setText(QCoreApplication::translate("Widget", "curry", nullptr));
         pushButton_lebron->setText(QCoreApplication::translate("Widget", "lebron", nullptr));
+        pushButton->setText(QCoreApplication::translate("Widget", "qq", nullptr));
+        pushButton_2->setText(QCoreApplication::translate("Widget", "jj", nullptr));
     } // retranslateUi
 
 };
